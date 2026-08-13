@@ -1,0 +1,104 @@
+# Photo Album AI
+
+Create beautiful photo albums with AI assistance. Upload photos, tell your story, and let AI select and arrange the perfect shots.
+
+## Quick Start
+
+### Run Locally
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Start the development server
+npm start
+
+# 3. Open http://localhost:3000 in your browser
+```
+
+### Deploy to Vercel (Free)
+
+1. Go to https://vercel.com
+2. Click "New Project"
+3. Connect your GitHub repository
+4. Deploy (it's automatic!)
+
+### Deploy to Netlify (Free)
+
+1. Go to https://app.netlify.com/drop
+2. Drag this folder into the window
+3. Wait 30 seconds for your live URL
+
+## How to Use
+
+1. **Get an API Key**
+   - Go to https://console.anthropic.com/
+   - Create a free account
+   - Generate an API key
+   - Save it (keep it secret!)
+
+2. **Upload Photos**
+   - Click "Choose Photos"
+   - Select 5-50 photos from your computer
+
+3. **Tell Your Story**
+   - Describe what the album is about
+   - Be specific about the mood and context
+
+4. **AI Analyzes**
+   - Claude analyzes all your photos
+   - Selects the best ones
+   - Suggests an order
+
+5. **Choose Style**
+   - Pick from 4 design styles
+   - Toggle image enhancement on/off
+
+6. **Review & Edit**
+   - Reorder photos
+   - Add captions
+   - Edit title
+
+7. **Export**
+   - Click "Export to PDF"
+   - Save to your computer
+   - Ready to print!
+
+## Features
+
+✨ **Smart Photo Selection** - AI ranks photos by quality and emotional impact
+🎨 **4 Style Templates** - Classic, Modern, Editorial, Minimal
+📝 **Full Editing Control** - Reorder, caption, customize everything
+🖼️ **Image Enhancement** - Optional AI-powered brightness/contrast adjustments
+📄 **Print-Ready PDF** - Export with perfect spacing and formatting
+
+## System Requirements
+
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection
+- Anthropic API key (free tier available)
+
+## Technical Stack
+
+- React 18
+- Tailwind CSS
+- Anthropic Claude API
+- Lucide Icons
+
+## Notes
+
+- Photos are processed in your browser (private)
+- No data is stored (session-based)
+- Requires valid API key for AI features
+- Supports JPG, PNG, WebP, GIF formats
+
+## Support
+
+For issues or questions:
+1. Check your API key is valid
+2. Try refreshing the page
+3. Ensure you have a stable internet connection
+
+---
+
+Made with ❤️ using Claude AI
